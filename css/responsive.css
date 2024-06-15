@@ -1,0 +1,56 @@
+@media screen and (max-width:770px) {
+    
+    .navbar{
+        width: 90%;
+    }
+
+    menu_bar{
+        display: grid;
+        color: aliceblue;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid white;
+        width: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background: #24292D;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav_links li a {
+        border-bottom: 1px solid white;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 10px;
+    }
+
+    .Anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .innersoftware_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .altBilgiler{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .İletişimAltBilgi{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+}

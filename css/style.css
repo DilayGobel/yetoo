@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+ }
+ 
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+ }
+ 
+ body{
+   font-family: "Poppins", sans-serif;
+ }
+ 
+ img{
+   width: 100%;
+ }
+ 
+ section{
+   padding: 100px 0;
+   background: #00ced1;
+ }
+ 
+ .section_title{
+   margin-bottom: 30px;
+ }
+ 
+ .section_title_h2{
+   position: relative;
+   text-align: center;
+   color: aliceblue;
+   font-size: 30px;
+   transition: all.5s ease-in-out;
+ }
+ 
+ .section_title_h2:hover{
+   background-color: aquamarine;
+ }
+ 
+ 
+ 
+ header{
+   background: #754eea;
+   border-bottom: 1px solid ;
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+ }
+ 
+ #menu_bar{
+  display: none;
+ }
+ .navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   width: 80%;
+   padding: 10px 0;
+ }
+ 
+ .nav_adları{
+   display: flex;
+ }
+ 
+ .nav_adları li a{
+   margin-left: 15px;
+   color: aliceblue;
+   padding: 5px 15px;
+   transition: all.5s ease-in-out;
+ }
+ .nav_adları li :hover{
+   background-color: #754eea;
+ }
+ 
+ /* PROJELER*/
+ 
+ .innersoftware{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   justify-content: space-between;
+   margin: 0 auto;
+ }
+ 
+ .innersoftware_child{
+   flex-basis: 30%;
+   color: aliceblue;
+   padding: 25px 20px;
+   background-color: blue;
+   border-radius: 5px;
+   border: 1px solid transparent;
+   transition: all.5s ease-in;
+ }
+ 
+ .innersoftware_child:hover{
+   border: 1px solid #7f49e4;
+ }
+ 
+ .innersoftware_child h3{
+   font-size: 20px;
+   margin: 5px 0;
+ }
+ 
+ .innersoftware_child p{
+   font-size: 15px;
+ }
+ 
+ 
+ /*  BLOG  */
+ 
+ .bilgiler{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+ }
+ 
+ .altBilgiler{
+  flex-basis: 24%;
+  color: black;
+  padding: 20px 10px;
+  border: 1px solid transparent;
+  transition: .3s;
+  border-radius: 5px;
+ }
+ 
+ .altBilgiler :hover{
+  border: 1px solid #00ced1;
+ }
+ 
+ 
+ /* İLETİŞİM */
+ 
+ .İletişimBilgi{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+ }
+ 
+ .İletişimAltBilgi form{
+  padding: 50px 40px;
+  background: #444646;
+  border-radius: 5px;
+ }
+ 
+ .İletişimAltBilgi form input textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #eaf5f5;
+  border: none;
+  resize: none;
+  border-radius: 30px;
+  transition: .3s ease-in;
+ }
+ 
+ .İletişimAltBilgi form input textarea:focus{
+  color: white;
+ }
+ 
+ .İletişimAltBilgi form input :focus{
+  letter-spacing: 1px;
+ }
+ 
+ .İletişimAltBilgi form textarea:focus{
+  letter-spacing: 1px;
+ }
+ 
+ .İletişimAltBilgi form input:last-child{
+  margin-bottom: 0;
+  background: #cdc459;
+  border: 1px solid #dcd459;
+  transition: .3s;
+ }
+ 
+ .İletişimAltBilgi form input:last-child:hover{
+  background: transparent;
+  color: white;
+ }
